@@ -1,5 +1,5 @@
 """
-A starter script for reading our Yelp data and cleaning up the reviews.
+A starter script for exploring the types of words individual businesses use.
 """
 import gzip
 import json
@@ -18,7 +18,14 @@ def main():
     # working with...
     print sample_business['reviews'][0]
     print sample_business['categories']
-    print sample_business['name']
+    print 'Reviews summary:'
+    print interesting_words(sample_business['reviews'])
+
+
+def interesting_words(reviews):
+    # TODO: Make me better!
+    # ...this isn't a very useful definition of "interesting"
+    return reviews[0].split()[:5]
 
 
 def clean_review(review):
