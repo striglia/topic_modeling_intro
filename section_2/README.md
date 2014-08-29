@@ -18,3 +18,6 @@ writing a classifier for identifying whether a business has the `Mexican`
 category! In the next section we'll be working a lot with this classifier, so
 start to think about what words are important and how to tell whether your
 classifier works well.
+
+You can see a subset of businesses which are Mexican restuarants in
+mexican_sample_bizs.json.
