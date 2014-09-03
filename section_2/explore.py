@@ -4,6 +4,7 @@ A starter script for exploring the types of words individual businesses use.
 import gzip
 import json
 import os
+import string
 
 
 def main():
@@ -29,9 +30,18 @@ def interesting_words(reviews):
 
 
 def clean_review(review):
-    """Removes simple stopwords, lowercases, fixes newlines"""
+    """Removes simple stopwords, lowercases, fixes punctuation."""
     review = review.lower()
-    return review
+    # Remove punctuation!
+    review = ''.join(c for c in review.strip() if c not in string.punctuation)
+    # Remove stopwords!
+    stopwords = set(['and', 'or', 'but', 'the', 'a', 'an', 'is', 'not', 'in',
+        'by'])
+    return ' '.join(
+        word
+        for word in review.split()
+        if word not in stopwords
+    )
 
 
 def clean_biz(biz):
