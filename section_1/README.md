@@ -16,7 +16,16 @@ All code can be found in this directory. Look at the starter methods in
 `clean_data.py`. The comments should point you in the right direction, but if
 you get stuck feel free to ask me or a neighbor for help.
 
+Bonus
+----------
+
 If you're already done with this and waiting for the next section, try
 modifying clean_data.py to uses Python's argparse library to make a command
 line script that can accept any data file instead of hardcoding one. We want to
 invoke it like `clean_data.py --file sample_data.json.gz`.
+
+Expert
+----------
+
+Try cleaning the input businesses using a python generator so you only clean
+the data lazily instead of all at once!
