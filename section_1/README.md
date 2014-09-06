@@ -12,17 +12,18 @@ Our goals for this section is to:
 	b. Clean up text artifacts (we don't care about "\n"!)
 
 
-All code can be found in this directory. Look at the starter methods in
-`clean_data.py`. The comments should point you in the right direction, but if
-you get stuck feel free to ask me or a neighbor for help.
+All code can be found in this directory. You can invoke the code by running
+`python main.py`. The functions you need to implement are in `clean.py`. The
+comments should point you in the right direction, but if you get stuck feel
+free to ask me or a neighbor for help.
 
 Bonus
 ----------
 
 If you're already done with this and waiting for the next section, try
-modifying clean_data.py to uses Python's argparse library to make a command
+modifying main.py to uses Python's argparse library to make a command
 line script that can accept any data file instead of hardcoding one. We want to
-invoke it like `clean_data.py --file sample_data.json.gz`.
+invoke it like `python main.py --file other_sample_data.json.gz`.
 
 Expert
 ----------
