@@ -11,10 +11,11 @@ def main():
 
     # Let's look at the first business just to get an idea of what we're
     # working with...
-    print sample_business['reviews'][0]
-    print sample_business['categories']
-    print 'Reviews summary:'
-    print interesting_words(sample_business['reviews'])
+    print '\n'
+    print 'First review: {0}'.format(sample_business['reviews'][0])
+    print 'Categories: {0}'.format(sample_business['categories'])
+    summary = interesting_words(sample_business['reviews'])
+    print '\nReviews summary: {0}'.format(summary)
 
 
 if __name__ == '__main__':
