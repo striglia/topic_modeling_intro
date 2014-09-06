@@ -2,18 +2,18 @@ Section 1: Preparation!
 ------------------------
 
 
-Our goals for this section is to:
+Our goal for this section is to:
 
 1. Read in our data from the "sample_data.json.gz" file.
 2. Unpack the file's json into python dictionaries.
 
-3. Implement the "clean_text" function
+3. Implement the "clean_biz_data" function
 	a. Remove words we don't care about (and, but, etc.)
 	b. Clean up text artifacts (we don't care about "\n"!)
 
 
 All code can be found in this directory. You can invoke the code by running
-`python main.py`. The functions you need to implement are in `clean.py`. The
+`python main.py`. The functions you need to implement are in `load.py`. The
 comments should point you in the right direction, but if you get stuck feel
 free to ask me or a neighbor for help.
 
