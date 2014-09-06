@@ -1,0 +1,3 @@
+def naive_mexican_classifier(reviews):
+    # TODO: We can do better than this...
+    return any('mexican' in r for r in reviews)
