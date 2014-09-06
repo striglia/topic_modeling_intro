@@ -21,9 +21,9 @@ writing a classifier (just a python function!) for identifying whether a
 business has the `Mexican` category! Can you decide just from the content of
 the reviews?
 
-You can see a subset of businesses which are Mexican restuarants in
-mexican_sample_bizs.json to help you look for patterns. Now try correctly
-detecting which businesses in the whole dataset are Mexican restaurants.
+You can filter the dataset down to only businesses with the "Mexican" category
+to help you look for patterns. Now try correctly detecting these businesses
+without looking at their category information.
 
 Expert
 --------------
