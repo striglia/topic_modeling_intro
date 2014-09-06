@@ -14,9 +14,24 @@ def load_data():
 
 def read_data_file(data_file):
     """Take a filepath and load the business review data."""
-    # FIXME!
+    # FIXME! This code doesn't load the data at all! We want to make sure we
+    # load the business data from our file and also run each business through
+    # the clean_biz_data function.
     return [{
         'reviews': ['foo'],
         'categories': ['Restaurants', 'Breakfast/Brunch'],
-        'name': "Scott's Waffle House",
+        'name': "Scott's Hot Dog Shack",
     }]
+
+
+def clean_biz_data(biz):
+    """Clean up a business's text data so we can do further processing."""
+    # TODO: how do we want to store a business's information? We will
+    # definitely care about the following fields:
+    #   name
+    #   id
+    #   categories
+    #   reviews
+    #
+    # What data structure is best?
+    return {}

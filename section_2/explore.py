@@ -44,7 +44,7 @@ def clean_review(review):
     )
 
 
-def clean_biz(biz):
+def clean_biz_data(biz):
     """Clean up a business's text data so we can do further processing."""
     return {
         'name': biz['name'],
@@ -60,7 +60,7 @@ def read_data_file(data_file):
         data = [json.loads(line) for line in input_file]
 
     # For each business, do basic data cleanup.
-    return [clean_biz(biz) for biz in data]
+    return [clean_biz_data(biz) for biz in data]
 
 
 if __name__ == '__main__':
