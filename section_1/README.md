@@ -43,4 +43,3 @@ Links to Resources
 - [JSON loading in python](https://docs.python.org/2/library/json.html)
 - [gzip python module](https://docs.python.org/2/library/gzip.html)
 - [argparse python module](https://docs.python.org/2/library/argparse.html)
-- [cleaning up stopwords](https://docs.python.org/2/library/argparse.html)
