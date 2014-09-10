@@ -13,6 +13,9 @@ Our goals for this section is to:
 All code can be found in this directory. Start with the (poorly implemented)
 method in `explore.py`.
 
+You can also look in `hints.txt` to see some suggestions for python modules you
+may find useful.
+
 
 Bonus
 --------------

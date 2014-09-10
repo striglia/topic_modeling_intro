@@ -1,0 +1,5 @@
+The included classifier is really simple, but it will still work on some businesses! What words can you also check for that are very good indicators for Mexican food?
+
+If you're trying to filter out businesses with the "Mexican" category, you can check `if 'Mexican' in business['categories']`.
+
+For quantifying how well your classifier is doing, think about what it means to be 100% correct. You might find [this wikipedia page](http://en.wikipedia.org/wiki/Precision_and_recall) interesting.
