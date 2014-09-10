@@ -1,0 +1,3 @@
+The hints this time are pretty minimal (see section 2's hints.txt for some of these topics).
+
+For more information on probabilistic topic modeling, I really like [this overview](http://www.scottbot.net/HIAL/?p=19113). It talks about a lot of different academic papers, links a few really cool applications, and overall will give you a great idea of what is possible with these approaches.
