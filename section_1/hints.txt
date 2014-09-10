@@ -1,0 +1,8 @@
+Hints!
+
+Having reading the data file? You may be interested in the [gzip python module](https://docs.python.org/2/library/gzip.html#examples-of-usage). Use it with the `with` keyword to open and close files [easily!](https://docs.python.org/2/tutorial/inputoutput.html#methods-of-file-objects)
+
+Not sure how best to clean the data? Consider a few sample ideas:
+- make sure you only have upper or lowercase letters
+- come up with a set of words that are uninteresting and remove them from the reviews
+- use `.strip()` to remove trailing whitespace or newlines

@@ -17,6 +17,9 @@ All code can be found in this directory. You can invoke the code by running
 comments should point you in the right direction, but if you get stuck feel
 free to ask me or a neighbor for help.
 
+You can also look in `hints.txt` to see some suggestions for python modules you
+may find useful.
+
 Bonus
 ----------
 
