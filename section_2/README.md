@@ -5,7 +5,7 @@ Section 2: Exploration!
 Our goals for this section is to:
 
 1. You can use your own code from the last section or (if you prefer or did not finish) this section's pre-built code.
-2. Explore the first few businesses in the business_reviews list and think about how you'd categorize their content. What Yelp categories belong? Can you come up wtih any appropriate non-yelp categories?
+2. Explore the first few businesses in the business_reviews list and think about how you'd categorize their content. What Yelp categories best fit them? Can you come up wtih any appropriate non-yelp categories? (you might be interested in the list of [all categories](http://www.yelp.com/developers/documentation/v2/all_category_list))
 3. Implement your version of the `interesting_words` function and explore a few businesses with it. (hint: word frequency is a good start, but probably not all that matters!)
 4. How well can you (manually) guess the categories for these businesses? What process are you using in your head?
 
